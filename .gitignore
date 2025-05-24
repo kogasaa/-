@@ -1,0 +1,78 @@
+# Unreal Engine 5.4 .gitignore file
+
+# Unreal Engine generated files
+Binaries/
+Build/
+Debug/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+
+# Unreal Engine local files
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.swp
+*.pdb
+
+# Unreal Engine auto-generated project files
+*.generated.h
+*.generated.cpp
+
+# Unreal Engine content files that should be ignored
+Content/StarterContent/
+Content/Collections/
+Content/Developers/
+
+# Unreal Engine logs and crash reports
+Crashes/
+Logs/
+
+# Unreal Engine plugins that should be ignored (add specific plugins if needed)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Unreal Engine packaged builds
+WindowsNoEditor/
+LinuxNoEditor/
+MacNoEditor/
+
+# Visual Studio files
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+*.sln.docstates
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.user
+*.userosscache
+*.aps
+*.ncb
+*.sbr
+ipch/
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specific files
+*~
+
+# Custom project specific ignores (add as needed)
+# Example: *.custom_extension
+
